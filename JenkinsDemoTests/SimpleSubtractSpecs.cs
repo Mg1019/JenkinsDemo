@@ -5,14 +5,14 @@ namespace JenkinsDemoTests
 {
     public class When_subtracting
     {
-        private SimpleSum _simpleSum;
+        private SimpleSubtract _simpleSubtract;
         private int _result;
 
         [SetUp]
         public void Setup()
         {
-            _simpleSum = new SimpleSum();
-            _result = _simpleSum.Add(2, 2);
+            _simpleSubtract = new SimpleSubtract();
+            _result = _simpleSubtract.Subtract(2, 2);
         }
 
         [Test]
