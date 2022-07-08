@@ -16,7 +16,7 @@ namespace JenkinsDemoTests
         }
 
         [Test]
-        public void Test1()
+        public void Should_return_correct_value()
         {
             Assert.AreEqual(4, _result);
         }
