@@ -6,11 +6,6 @@ pipeline{
                 echo "In this stage we'd delete our directory in case last build failed"
             }
         }
-        stage("Clone Repo"){
-            steps{
-                echo "In this stage we'd clone our repo from GIT NOT NECESSARY IF WE'RE POLLING SCM"
-            }
-        }
         stage("Build"){
             steps{
                 bat "dotnet msbuild C:\\Localtrunk\\JenkinsDemo\\JenkinsDemo.sln"
@@ -19,6 +14,11 @@ pipeline{
         stage("Test"){
             steps{
                 bat "dotnet test C:\\Localtrunk\\JenkinsDemoTests\\JenkinsDemoTests.csproj"
+                }
+            }
+        stage("Deploy"){
+            steps{
+                echo "In this stage we would deploy our app to some location"
                 }
             }
         }
