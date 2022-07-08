@@ -2,7 +2,7 @@
 {
     public class SimpleSubtract
     {
-        public int Add(int firstInt, int secondInt)
+        public int Subtract(int firstInt, int secondInt)
         {
             return secondInt - firstInt;
         }
