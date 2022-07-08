@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace JenkinsDemoTests
 {
-    public class When_calculating_sum
+    public class When_subtracting
     {
         private SimpleSum _simpleSum;
         private int _result;
@@ -18,7 +18,7 @@ namespace JenkinsDemoTests
         [Test]
         public void Should_return_correct_value()
         {
-            Assert.AreEqual(4, _result);
+            Assert.AreEqual(0, _result);
         }
 
     }
