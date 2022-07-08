@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsDemo", "JenkinsDemo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsDemoTests", "..\JenkinsDemoTests\JenkinsDemoTests.csproj", "{CBBE891A-CBBE-43C1-9843-77A02F5FD0C8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jenkins", "Jenkins", "{C649288D-EAA7-4005-BE19-8B6789BCB15D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\micha\Documents\Jenkins\JenkinsFile = ..\..\Users\micha\Documents\Jenkins\JenkinsFile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
